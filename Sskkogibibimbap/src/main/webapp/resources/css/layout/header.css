@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.hd_Main {
+	max-width: 1400px;
+	min-width: 950px;
+	height: 100px;
+	margin: 0 auto;
+}
+.hd_MainLog {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.hd_MainLog img {
+	width: 255px;
+	height: 85px;
+}
+.hd_NaviBar {
+	float: right;
+	margin-top: 45px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.hd_NaviBar span {
+	margin-right: 70px;
+}

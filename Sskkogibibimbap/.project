@@ -46,4 +46,16 @@
 		<nature>egovframework.dev.imp.ide.natures.egovnature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/resources/img/brandstory/BrandstoryMain.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/BrandstoryMain.jpg</locationURI>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/img/layout/HeaderLog.png</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/mainLog.png</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

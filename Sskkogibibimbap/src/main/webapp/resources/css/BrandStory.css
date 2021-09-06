@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.bs_main {
+	min-width: 950px;
+	height: 500px;
+	overflow: hidden;
+}
+.bs_main img {
+	position: absolute;
+	width: auto;
+	height: 500px;
+	left: calc(50% - 950px);
+}
+
+
+/* 그림 가운데 정렬 하게 만듬, 그런데 오른쪽으로 살짝 넘음 */
+
+/*
+https://www.codingfactory.net/10978
+https://nykim.work/86
+*/
