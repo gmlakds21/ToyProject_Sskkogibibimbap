@@ -48,6 +48,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/main/webapp/resources/img/brandstory/BrandstoryBack.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/BrandStoryBack.jpg</locationURI>
+		</link>
+		<link>
 			<name>src/main/webapp/resources/img/brandstory/BrandstoryMain.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/BrandstoryMain.jpg</locationURI>

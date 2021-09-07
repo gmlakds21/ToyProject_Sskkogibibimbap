@@ -1,17 +1,109 @@
 @charset "UTF-8";
-.bs_main {
-	min-width: 950px;
-	height: 500px;
+.bs_Front {
+	position: relative;
+	z-index: 20px;
+}
+.bs_Back {
+	position: fixed;
+	z-index: 10px;
+	background-image: url('resources/img/brandstory/BrandstoryBack.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* 브랜드 배너 */
+.bs_Banner {
+	position: relative;
+	min-width: 1000px;
+	height: 400px;
 	overflow: hidden;
+	background: #2F2323;
 }
-.bs_main img {
-	position: absolute;
-	width: auto;
-	height: 500px;
-	left: calc(50% - 950px);
+.bs_Banner img {
+ 	position: absolute;
+	left: calc(50% - 1000px);
+	top: calc(50% - 200px);
 }
 
 
+/* 브랜드 스토리 */
+.bs_Story {
+	width: 100%;
+	height: 700px;
+	background: red;
+	margin-bottom: 500px;
+}
+.bs_StoryMain {
+	margin: 0px auto;
+	padding: 100px 0;
+	width: 1000px;
+	height: 100%;
+	background: orange; 
+}
+.bs_StoryLeft {
+	float: left;
+	width: 400px;
+}
+.bs_StoryTitle {
+	color: #BA131A;
+	font-size: 30px;
+	font-weight: bold;
+}
+.bs_StorySubTitle {
+	width: 280px;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 20px 0;
+	font-size: 40px;
+}
+.bs_StoryRight {
+	float: right;
+	width: 500px;
+	margin-top: 70px;
+}
+.bs_StoryTextTitle {
+	font-size: 30px;
+}
+.bs_StoryTextSub div {
+	margin: 20px 0px;
+}
+
+
+
+/* 브랜드 소개 */
+.bs_Intro {
+	width: 100%;
+	height: 700px;
+	background: red;
+}
+.bs_IntroMain {
+	margin: 0px auto;
+	padding: 100px 0;
+	width: 1000px;
+	height: 100%;
+	background: orange; 
+}
+.bs_IntroRight {
+	float: right;
+	width: 400px;
+}
+.bs_IntroTitle {
+	color: #BA131A;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+	width: 280px;
+}
+.bs_IntroSubTitle {
+	width: 280px;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	padding: 20px 0;
+	font-size: 40px;
+	text-align: right;
+}
 /* 그림 가운데 정렬 하게 만듬, 그런데 오른쪽으로 살짝 넘음 */
 
 /*

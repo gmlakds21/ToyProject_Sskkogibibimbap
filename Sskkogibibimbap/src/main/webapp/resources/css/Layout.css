@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+/* Header */
+.hd_Front {
+	width: 100%;
+	height: 100px;
+	background: white;
+	position: fixed;
+ 	z-index: 30px;
+}
+.hd_Main {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	background: white;
+}
+.hd_Log {
+	float: left;
+	margin-top: 10px;
+}
+.hd_Log img {
+	width: 255px;
+	height: 85px;
+}
+.hd_NaviBar {
+	float: right;
+	margin-top: 55px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.hd_NaviBar span {
+	margin: 0px 35px;
+}
+.hd_Back {
+	height: 100px;
+}
+
+
+/* Footer */
+.ft_Front {
+	width: 100%;
+	height: 200px;
+	background: black;
+}
+.ft_Main {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 50px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+.ft_Main div {
+	margin: 6px;
+	font-weight: bold;
+}
+.ft_Main div:last-child {
+	margin-top: 12px;
+	font-size: 10px;
+}
