@@ -2,7 +2,6 @@
 <!DOCTYPE tiles-definitions PUBLIC
         "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
         "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
-
 <tiles-definitions>
     <!--  레이아웃 정리  -->
     <!--  변하지 않는 부분들로 구성된 페이지를 템플릿으로 선언  -->

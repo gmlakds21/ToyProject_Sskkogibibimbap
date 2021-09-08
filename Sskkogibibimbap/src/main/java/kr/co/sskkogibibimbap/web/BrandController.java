@@ -15,6 +15,6 @@ public class BrandController {
 	
 	@RequestMapping("/BrandStory.do")
 	public String BrandStory() {
-		return "BrandStory.tiles";
+		return "brandStory.tiles";
 	}
 }

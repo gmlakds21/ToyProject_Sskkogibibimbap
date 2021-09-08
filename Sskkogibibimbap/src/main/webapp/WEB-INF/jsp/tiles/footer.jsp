@@ -1,6 +1,7 @@
 <%@ page pageEncoding="UTF-8"%>
 <footer>
 	<div class="ft_Front">
+	
 		<div class="ft_Main">
 			<div>상호 : 태승에프엔씨 | 대표 : 곽창훈 | 사업자등록번호 : 485-04-01756</div>
 			<div>주소 : 강원도 원주시 단구로 354-1 | 이메일 : gumpio01@naver.com</div>

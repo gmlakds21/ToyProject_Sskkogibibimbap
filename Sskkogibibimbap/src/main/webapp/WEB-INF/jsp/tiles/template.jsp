@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="resources/css/Layout.css">
     <link rel="stylesheet" href="resources/css/BrandStory.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<!-- <script src="/js/product.js"></script> -->
+	<!-- <script src="/js/product.js"></script>  -->
     <title>씅's 꼬기가득비빔밥</title>
 </head>
 <body>

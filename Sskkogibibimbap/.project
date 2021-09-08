@@ -48,17 +48,17 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/main/webapp/resources/img/brandstory/BrandstoryBack.jpg</name>
+			<name>src/main/webapp/resources/img/brandstory/brandstoryBack.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/BrandStoryBack.jpg</locationURI>
 		</link>
 		<link>
-			<name>src/main/webapp/resources/img/brandstory/BrandstoryMain.jpg</name>
+			<name>src/main/webapp/resources/img/brandstory/brandstoryMain.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/BrandstoryMain.jpg</locationURI>
 		</link>
 		<link>
-			<name>src/main/webapp/resources/img/layout/HeaderLog.png</name>
+			<name>src/main/webapp/resources/img/layout/headerLog.png</name>
 			<type>1</type>
 			<locationURI>PARENT-5-PROJECT_LOC/Users/user/Desktop/mainLog.png</locationURI>
 		</link>
