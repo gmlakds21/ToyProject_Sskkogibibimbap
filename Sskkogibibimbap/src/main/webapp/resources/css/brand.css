@@ -1,11 +1,6 @@
 @charset "UTF-8";
 .bd_Section {
 }
-.bs_Back {
-	background-image: url('/img/brandstory/brandstoryBack.jpg');
-}
-
-
 /* 브랜드 배너 */
 .bs_Banner {
 	position: relative;
@@ -17,7 +12,7 @@
 .bs_Banner img {
  	position: absolute;
 	left: calc(50% - 1000px);
-	top: calc(50% - 200px);
+	top: calc(50% - 250px);
 }
 
 
@@ -26,7 +21,6 @@
 	width: 100%;
 	height: 700px;
 	background: white;
-	margin-bottom: 500px;
 }
 .bs_StoryMain {
 	margin: 0px auto;
@@ -64,6 +58,13 @@
 	margin: 20px 0px;
 }
 
+
+/* */
+.bs_forBack {
+	height: 500px;
+	width: 100%;
+	background: url("/resources/img/brand/brandBack.jpg") 50% 50% / cover no-repeat fixed rgba(0, 0, 0, 0);
+}
 
 
 /* 브랜드 소개 */

@@ -4,7 +4,7 @@
 	<div class="hd_Front">
 		<div class="hd_Main">
 			<div class="hd_Log">
-				<img src="/resources/img/layout/headerLog.png"/>
+				<img src="resources/img/layout/headerLog.png"/>
 			</div>
 			<div class="hd_NaviBar">
 				<span>브랜드 스토리</span>
@@ -15,6 +15,5 @@
 		</div>
 	</div>
 	<div class="hd_Back">
-	
 	</div>
 </header>

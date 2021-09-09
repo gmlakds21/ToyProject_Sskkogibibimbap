@@ -44,6 +44,6 @@
 		p:contentType="application/json;charset=UTF-8"/>
 										
 	<mvc:annotation-driven/>
-	<mvc:resources location="/resources/" mapping="/resources/**"/>					
+	<mvc:resources location="/resource/" mapping="/resource/**" />					
 
 </beans>

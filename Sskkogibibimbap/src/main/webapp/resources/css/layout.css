@@ -1,19 +1,16 @@
 @charset "UTF-8";
-
-
 /* Header */
 .hd_Front {
 	width: 100%;
 	height: 100px;
 	background: white;
 	position: fixed;
- 	z-index: 30px;
+	border-bottom: 1px solid black;
+ 	z-index: 10;
 }
 .hd_Main {
 	width: 1000px;
-	height: 100px;
 	margin: 0 auto;
-	background: white;
 }
 .hd_Log {
 	float: left;
