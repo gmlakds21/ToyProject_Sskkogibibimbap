@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Header */
-.hd_Front {
+.hd_front {
 	width: 100%;
 	height: 100px;
 	background: white;
@@ -8,39 +8,39 @@
 	border-bottom: 1px solid black;
  	z-index: 10;
 }
-.hd_Main {
+.hd_main {
 	width: 1000px;
 	margin: 0 auto;
 }
-.hd_Log {
+.hd_log {
 	float: left;
 	margin-top: 10px;
 }
-.hd_Log img {
+.hd_log img {
 	width: 255px;
 	height: 85px;
 }
-.hd_NaviBar {
+.hd_naviBar {
 	float: right;
 	margin-top: 55px;
 	font-size: 18px;
 	font-weight: bold;
 }
-.hd_NaviBar span {
+.hd_naviBar span {
 	margin: 0px 35px;
 }
-.hd_Back {
+.hd_back {
 	height: 100px;
 }
 
 
 /* Footer */
-.ft_Front {
+.ft_area {
 	width: 100%;
 	height: 200px;
 	background: black;
 }
-.ft_Main {
+.ft_main {
 	width: 1000px;
 	height: 100px;
 	margin: 0 auto;
@@ -49,11 +49,11 @@
 	text-align: center;
 	font-size: 12px;
 }
-.ft_Main div {
+.ft_main div {
 	margin: 6px;
 	font-weight: bold;
 }
-.ft_Main div:last-child {
+.ft_main div:last-child {
 	margin-top: 12px;
 	font-size: 10px;
 }
