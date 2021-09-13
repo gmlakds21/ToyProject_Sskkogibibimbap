@@ -7,8 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import egovframework.rte.psl.dataaccess.EgovAbstractMapper;
 
-@Repository("BrandDAO")
-public class BrandDAO extends EgovAbstractMapper {
+@Repository("MenuDAO")
+public class MenuDAO  extends EgovAbstractMapper {
 
 	@Resource(name="sqlSession")
 	public void setSqlSessionFactory(SqlSessionFactory sqlSession) {

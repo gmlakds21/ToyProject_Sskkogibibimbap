@@ -11,6 +11,4 @@ public class BrandService {
 
 	@Resource(name="BrandDAO")
 	private BrandDAO brandDAO;
-	
-	
 }

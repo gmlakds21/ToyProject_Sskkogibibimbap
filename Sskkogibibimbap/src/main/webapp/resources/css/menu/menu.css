@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 메뉴 배너 */
+.mn_banner {
+	position: relative;
+	min-width: 1250px;
+	height: 400px;
+	overflow: hidden;
+}
+.mn_banner img {
+	position: absolute;
+	left: calc(50% - 950px);
+	top: calc(50% - 250px);
+}
