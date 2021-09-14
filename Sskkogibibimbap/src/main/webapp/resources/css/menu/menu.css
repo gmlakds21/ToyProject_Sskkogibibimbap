@@ -11,3 +11,77 @@
 	left: calc(50% - 950px);
 	top: calc(50% - 250px);
 }
+.mn_body {
+	width: 100%;
+	background: white;
+}
+
+
+/* 메뉴 안내 */
+.mn_menu {
+	margin: 150px auto;
+	width: 1250px;
+	text-align: center;
+}
+.mn_menuTitle img {
+	width: 30px;
+	height: 30px;
+	margin: 20px auto;
+}
+.mn_menuText {
+	width: 200px;
+	padding: 15px 0;
+	margin: 0px auto;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	font-size: 30px;
+	font-weight: bold;
+}
+.mn_menuBanner {
+	margin: 100px 0px;
+}
+.mn_menuBannerText {
+	float: right;
+	width: 500px;
+	height: 100%;
+	padding: 10px;
+	font-size: 25px;
+	background: white;
+	position: relative;
+	top: -300px;
+	right: 60px;
+}
+
+
+/* 메뉴 목록 */
+.mn_menuList {
+	width: 1250px;
+	margin: 50px auto;
+	text-align: center;
+	border-top: 1px solid #EEEEEE;
+	padding-top: 50px;
+}
+.mn_menuListTitle {
+	text-weight: bold;
+	font-size: 30px;
+}
+.mn_menuLists {
+	padding: 30px 0px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.mn_menuItem {
+	width: 400px;
+	height: 100%;
+	margin-bottom: 40px;
+}
+.mn_menuItem img {
+	border: 3px solid #EEEEEE;
+}
+.mn_menuItem div {
+	margin-top: 20px;
+	font-weight: bold;
+	color: #444444;
+}
+

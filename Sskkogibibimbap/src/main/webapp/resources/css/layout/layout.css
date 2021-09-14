@@ -24,10 +24,15 @@
 	float: right;
 	margin-top: 55px;
 	font-size: 18px;
+}
+.hd_naviBar button {
+	margin: 0px 35px;
+	background: none;
+	border: none;
 	font-weight: bold;
 }
-.hd_naviBar span {
-	margin: 0px 35px;
+.hd_naviBar button:focus {
+	outline: none;
 }
 .hd_back {
 	height: 100px;

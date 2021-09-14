@@ -1,5 +1,6 @@
 <%@ page pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<!-- 헤더 부분 -->
 <header>
 	<div class="hd_front">
 		<div class="hd_main">
@@ -7,10 +8,10 @@
 				<img src="resources/img/layout/headerLog.png"/>
 			</div>
 			<div class="hd_naviBar">
-				<span>브랜드 스토리</span>
-				<span>메뉴안내</span>
-				<span>창업안내</span>
-				<span>매장안내</span>
+				<button type="button" id="naviBrand">브랜드 스토리</button>
+				<button type="button" id="naviMenu">메뉴안내</button>
+				<button type="button" id="naviCompany">창업안내</button>
+				<button type="button" id="naviBrand">매장안내</button>
 			</div>
 		</div>
 	</div>

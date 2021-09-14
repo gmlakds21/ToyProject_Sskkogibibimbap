@@ -11,14 +11,14 @@
 	left: calc(50% - 950px);
 	top: calc(50% - 250px);
 }
+.br_body {
+	width: 100%;
+	background: white;
+}
 
 
 /* 브랜드 스토리 */
 .br_story {
-	width: 100%;
-	background: white;
-}
-.br_storyMain {
 	margin: 0px auto;
 	padding: 100px 0;
 	width: 1250px;
@@ -65,10 +65,6 @@
 
 /* 브랜드 소개 */
 .br_intro {
-	width: 100%;
-	background: white;
-}
-.br_introMain {
 	margin: 0px auto;
 	padding: 100px 0;
 	width: 1250px;

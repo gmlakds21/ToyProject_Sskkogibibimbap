@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="resources/css/brand/brand.css">
     <link rel="stylesheet" href="resources/css/menu/menu.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="resources/js/layout/layout.js"></script>
 	<!-- <script src="/js/product.js"></script>  -->
     <title>씅's 꼬기가득비빔밥</title>
 </head>

@@ -1,4 +1,5 @@
 <%@ page pageEncoding="UTF-8"%>
+<!-- 푸터 부분 -->
 <footer>
 	<div class="ft_area">
 		<div class="ft_main">
