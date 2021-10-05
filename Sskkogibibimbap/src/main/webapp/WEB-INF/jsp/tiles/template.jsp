@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="resources/css/layout/layout.css">
     <link rel="stylesheet" href="resources/css/brand/brand.css">
     <link rel="stylesheet" href="resources/css/menu/menu.css">
+    <link rel="stylesheet" href="resources/css/company/company.css">
+    <link rel="stylesheet" href="resources/css/store/store.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>씅's 꼬기가득비빔밥</title>
 </head>
