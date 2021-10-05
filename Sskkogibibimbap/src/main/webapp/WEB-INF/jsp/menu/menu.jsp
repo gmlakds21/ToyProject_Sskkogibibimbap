@@ -2,6 +2,8 @@
 <!-- 메뉴 안내 -->
 <section class="mn_body">
 
+	<!-- 나중에라도 DB에 저장해서 menu 이름과 이미지 주소 불러오게 해보자 -->
+
 	<!-- 상단 배너 -->
 	<article class="mn_banner">
 		<img src="resources/img/menu/menuMain.jpg">
@@ -10,7 +12,7 @@
 	<!-- 메뉴 안내 -->
 	<article class="mn_menu">
 		<div class="mn_menuTitle">
-			<img src="resources/img/menu/menuMainIcon.png">
+			<img src="resources/img/layout/mainIcon.png">
 		</div>
 		<div class="mn_menuText">
 			<span>메뉴안내</span>

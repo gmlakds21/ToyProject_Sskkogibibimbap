@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* 창업 배너 */
+.cp_banner {
+	position: relative;
+	min-width: 1250px;
+	height: 400px;
+	overflow: hidden;
+}
+.cp_banner img {
+	position: absolute;
+	left: calc(50% - 950px);
+	top: calc(50% - 250px);
+}
+.cp_body {
+	width: 100%;
+	background: white;
+}
+
+
+/* 창업 안내 */
+.cp_company {
+	margin: 150px auto;
+	width:1250px;
+	text-align: center;
+}
+.cp_companyTitle {
+	
+}
+.cp_companyText {
+
+}
