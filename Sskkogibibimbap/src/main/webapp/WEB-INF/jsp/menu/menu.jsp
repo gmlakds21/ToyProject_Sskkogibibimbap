@@ -20,7 +20,7 @@
 		<div class="mn_menuBanner">
 			<img src="resources/img/menu/menuBanner.png">
 			<div class="mn_menuBannerText">
-					<b><span style="color:#AB7551">특별한 레시피</span>로 만든</b><br>맛있는 밥상, 꼬기비빔밥 전문점입니다.
+				<b><span style="color:#AB7551">특별한 레시피</span>로 만든</b><br>맛있는 밥상, 꼬기비빔밥 전문점입니다.
 			</div>
 		</div>
 	</article>
