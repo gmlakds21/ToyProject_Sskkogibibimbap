@@ -31,11 +31,26 @@
 		</div>
 		
 		<div class="st_baeminStore">
-			<div class="st_baeminItem">강원 원주 직영점</div>
-			<div class="st_baeminItem">강원 춘천 1호점</div>
-			<div class="st_baeminItem">경기 김포 한강점</div>
-			<div class="st_baeminItem">서울 동대문점</div>
-			<div class="st_baeminItem">서울 강북 도봉점</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				강원 원주 직영점
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				강원 춘천 1호점
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				경기 김포 한강점
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				서울 동대문점
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				서울 강북 도봉점
+			</div>
 		</div>
 	</article>
 	

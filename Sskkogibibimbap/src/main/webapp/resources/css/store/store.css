@@ -23,12 +23,12 @@
 	width: 400px;
 	height: auto;
 }
-.st_baeminStore {
-	
-}
 .st_baeminItem {
-	width: 200px;
-	text-align: center;
+	width: 180px;
 	border: 1px solid #40ACB7;
-	border-radius: 30px;
+	border-radius: 10px;
+}
+.st_baeminItem img {
+	width: 30px;
+	height: 30px;
 }
