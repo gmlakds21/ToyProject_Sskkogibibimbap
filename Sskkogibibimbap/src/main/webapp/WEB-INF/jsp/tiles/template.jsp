@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="resources/css/menu/menu.css">
     <link rel="stylesheet" href="resources/css/company/company.css">
     <link rel="stylesheet" href="resources/css/store/store.css">
+    <link rel="stylesheet" href="resources/css/base/base.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>씅's 꼬기가득비빔밥</title>
 </head>
@@ -19,5 +20,6 @@
     <tiles:insertAttribute name="main"/>
     <tiles:insertAttribute name="footer"/>
 	<script src="resources/js/layout/layout.js"></script>
+	<script src="resources/js/company/company.js"></script>
 </body>
 </html>

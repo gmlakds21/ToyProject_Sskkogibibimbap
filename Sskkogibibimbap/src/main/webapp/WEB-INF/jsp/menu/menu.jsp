@@ -1,30 +1,31 @@
 <%@ page pageEncoding="UTF-8"%>
 <!-- 메뉴 안내 -->
-<section class="mn_body">
-
-	<!-- 나중에라도 DB에 저장해서 menu 이름과 이미지 주소 불러오게 해보자 -->
+<section class="bs_body">
 
 	<!-- 상단 배너 -->
-	<article class="mn_banner">
+	<article class="bs_banner">
 		<img src="resources/img/menu/menuMain.jpg">
 	</article>
 	
 	<!-- 메뉴 안내 -->
-	<article class="mn_menu">
-		<div class="mn_menuTitle">
-			<img src="resources/img/layout/mainIcon.png">
+	<article class="bs_Info">
+		<div class="bs_InfoIcon">
+			<img src="resources/img/base/InfoIcon.png">
 		</div>
-		<div class="mn_menuText">
+		<div class="bs_InfoText">
 			<span>메뉴안내</span>
 		</div>
-		<div class="mn_menuBanner">
-			<img src="resources/img/menu/menuBanner.png">
-			<div class="mn_menuBannerText">
-				<b><span style="color:#AB7551">특별한 레시피</span>로 만든</b><br>맛있는 밥상, 꼬기비빔밥 전문점입니다.
-			</div>
+	</article>
+
+	<!-- 레시피 -->	
+	<article class="mn_recipe">
+		<img src="resources/img/menu/recipe.png">
+		<div class="mn_recipeText">
+			<b><span style="color:#AB7551">특별한 레시피</span>로 만든</b><br>맛있는 밥상, 꼬기비빔밥 전문점입니다.
 		</div>
 	</article>
 	
+	<!-- 나중에라도 DB에 저장해서 menu 이름과 이미지 주소 불러오게 해보자 -->
 	<!-- 비빔밥 -->
 	<article class="mn_menuList">
 		<div class="mn_menuListTitle">비빔밥</div>
@@ -56,6 +57,7 @@
 		</div>
 	</article>
 	
+	<!-- 정식 도시락 -->
 	<article class="mn_menuList">
 		<div class="mn_menuListTitle">정식 도시락</div>
 		<div class="mn_menuLists">
@@ -90,6 +92,7 @@
 		</div>
 	</article>
 	
+	<!-- 덮밥 도시락 -->
 	<article class="mn_menuList">
 		<div class="mn_menuListTitle">덮밥 도시락</div>
 		<div class="mn_menuLists">
@@ -128,28 +131,29 @@
 		</div>
 	</article>
 	
+	<!-- 돈카츠 도시락 -->
 	<article class="mn_menuList">
 		<div class="mn_menuListTitle">돈카츠 도시락</div>
 		<div class="mn_menuLists">
 			<div class="mn_menuItem">
 				<div><img src="resources/img/menu/dongas/dongas1.png"></div>
-				<span>고구마치즈 카츠</span>
+				<div>고구마치즈 카츠</div>
 			</div>
 			<div class="mn_menuItem">
 				<div><img src="resources/img/menu/dongas/dongas2.png"></div>
-				<span>등심 카츠</span>
+				<div>등심 카츠</div>
 			</div>
 			<div class="mn_menuItem">
 				<div><img src="resources/img/menu/dongas/dongas3.png"></div>
-				<span>안심 카츠</span>
+				<div>안심 카츠</div>
 			</div>
 			<div class="mn_menuItem">
 				<div><img src="resources/img/menu/dongas/dongas4.png"></div>
-				<span>치즈 카츠</span>
+				<div>치즈 카츠</div>
 			</div>
 			<div class="mn_menuItem">
 				<div><img src="resources/img/menu/dongas/dongas5.png"></div>
-				<span>치킨 카츠</span>
+				<div>치킨 카츠</div>
 			</div>
 		</div>
 	</article>

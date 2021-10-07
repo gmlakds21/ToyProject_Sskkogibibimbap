@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* 기본 */
+.bs_body {
+	width: 100%;
+	background: white;
+}
+
+
+/* 배너 */
+.bs_banner {
+	position: relative;
+	min-width: 1250px;
+	height: 400px;
+	overflow: hidden;
+}
+.bs_banner img {
+	position: absolute;
+	left: calc(50% - 950px);
+	top: calc(50% - 250px);
+}
+.bs_bannerDark {
+	-webkit-filter: brightness(0.30);
+	filter: brightness(0.30);
+}
+
+
+/* 안내 */
+.bs_Info {
+	margin: 150px auto;
+	width: 1250px;
+	text-align: center;
+}
+.bs_InfoIcon img {
+	width: 40px;
+	height: 40px;
+	margin: 20px auto;
+}
+.bs_InfoText {
+	width: 250px;
+	padding: 10px 0;
+	margin: 0px auto;
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	font-size: 40px;
+	font-weight: bold;
+}

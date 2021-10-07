@@ -1,72 +1,75 @@
 <%@ page pageEncoding="UTF-8"%>
 <!-- 창업 안내 -->
-<section class="cp_body">
+<section class="bs_body">
 
 	<!-- 상단 배너 -->
-	<article class="cp_banner">
+	<article class="bs_banner">
 		<img src="resources/img/company/companyMain.jpg">
 	</article>
 	
-	<!-- 씅스 비빔밥의 창업 안내 -->
-	<article class="cp_company">
-		<div class="cp_companyTitle">
-			<img src="resources/img/layout/mainIcon.png">
+	<!-- 창업 안내 -->
+	<article class="bs_Info">
+		<div class="bs_InfoIcon">
+			<img src="resources/img/base/InfoIcon.png">
 		</div>
-		<div class="cp_companyText">
+		<div class="bs_InfoText">
 			<span>창업안내</span>
-		</div>
-		<div class="cp_companySubTitle">
-			씅's 꼬기가득비빔밥은
-		</div>
-		<div class="cp_companySubText">
-			경영이념에 따라 점주님께서 보다 <b>쉽게 창업할 수 있도록</b> 도와드리며,<br>초보자도 <b>손쉬운 맞춤 창업 시스템</b>을 갖추고 있습니다.
 		</div>
 	</article>
 	
+	<!-- 창업 프로세스 -->
 	<article class="cp_process">
+		<div class="cp_processTitle">
+			씅's 꼬기가득비빔밥은
+		</div>
+		<div class="cp_processText">
+			경영이념에 따라 점주님께서 보다 <b>쉽게 창업할 수 있도록</b> 도와드리며,<br>초보자도 <b>손쉬운 맞춤 창업 시스템</b>을 갖추고 있습니다.
+		</div>
+	
 		<div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#BBBBBB">개설상담</div>
-				<div class="cp_processText">Step. 1</div>
+				<div class="cp_processStep">Step. 1</div>
 			</div>
 			<div class="cp_processArrow">
 				<img src="resources/img/company/companyArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#AAAAAA">가맹계약</div>
-				<div class="cp_processText">Step. 2</div>
+				<div class="cp_processStep">Step. 2</div>
 			</div>
 			<div class="cp_processArrow">
 				<img src="resources/img/company/companyArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#999999">상권분석</div>
-				<div class="cp_processText">Step. 3</div>
+				<div class="cp_processStep">Step. 3</div>
 			</div>
 			<div class="cp_processArrow">
 				<img src="resources/img/company/companyArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#888888">조리교육</div>
-				<div class="cp_processText">Step. 4</div>
+				<div class="cp_processStep">Step. 4</div>
 			</div>
 			<div class="cp_processArrow">
 				<img src="resources/img/company/companyArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#777777">오픈준비</div>
-				<div class="cp_processText">Step. 5</div>
+				<div class="cp_processStep">Step. 5</div>
 			</div>
 			<div class="cp_processArrow">
 				<img src="resources/img/company/companyArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#BA131A">Open</div>
-				<div class="cp_processText">Step. 6</div>
+				<div class="cp_processStep">Step. 6</div>
 			</div>
 		</div>
 	</article>
-		
+	
+	<!-- 창업 메뉴얼 -->
 	<article class="cp_manual">
 		<div class="cp_manualBody">
 			<div class="cp_manualItem">
@@ -95,9 +98,9 @@
 		<div class="cp_manualTable">
 			<table>
 				<colgroup>
-					<col style="width:150px">
-					<col style="width:950px">
-					<col style="width:150px">
+					<col style="width:200px">
+					<col style="width:850px">
+					<col style="width:200px">
 				</colgroup>
 				<tbody>
 					<tr>
@@ -124,17 +127,24 @@
 		</div>
 	</article>
 	
-	<article>
-		<div>
-			창업문의 1800-0000
+	<!-- 창업 소개 -->
+	<article class="cp_Infobanner">
+		<img class="cp_InfobannerDark" src="resources/img/company/companyBanner.png">
+		<div class="cp_InfoItem">
+			<div class="cp_InfoItem1">
+				<div class="cp_InfoTitle">창업문의</div>
+				<div class="cp_InfoText">1800-0000</div>
+			</div>
+			<div class="cp_InfoItem2">
+				<div class="cp_InfoTitle">이메일 문의</div>
+				<div class="cp_InfoText">binaryone21@gmail.com</div>
+				<img class="cp_InfoIcon" src="resources/img/company/companyMail.png">
+			</div>
+			<div class="cp_InfoItem3" id="goStore">
+				<div class="cp_InfoTitle">Store</div>
+				<div class="cp_InfoText">매장안내</div>
+				<img class="cp_InfoIcon" src="resources/img/company/companyPlace.png">
+			</div>
 		</div>
-		<div>
-			이메일 문의 binaryone21@gmail.com
-		</div>
-		<div>
-			Store 매장안내
-		</div>
-	
-	
 	</article>
 </section>

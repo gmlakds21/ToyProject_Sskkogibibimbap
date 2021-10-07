@@ -1,22 +1,4 @@
 @charset "UTF-8";
-/* 브랜드 배너 */
-.br_banner {
-	position: relative;
-	min-width: 1250px;
-	height: 400px;
-	overflow: hidden;
-}
-.br_banner img {
- 	position: absolute;
-	left: calc(50% - 950px);
-	top: calc(50% - 250px);
-}
-.br_body {
-	width: 100%;
-	background: white;
-}
-
-
 /* 브랜드 스토리 */
 .br_story {
 	margin: 0px auto;
@@ -129,9 +111,3 @@
 	border-top: none;
 	padding-top: 20px;
 }
-/* 그림 가운데 정렬 하게 만듬, 그런데 오른쪽으로 살짝 넘음 */
-
-/*
-https://www.codingfactory.net/10978
-https://nykim.work/86
-*/

@@ -1,13 +1,13 @@
 <%@ page pageEncoding="UTF-8" %>
 <!-- 브랜드 스토리 -->
-<section class="br_body">
+<section class="bs_body">
 
 	<!-- 상단 배너 -->
-	<article class="br_banner">
+	<article class="bs_banner">
 		<img src="resources/img/brand/brandMain.jpg">
 	</article>
 
-	<!-- 씅스 비빔밥의 브랜드 이야기 -->
+	<!-- 브랜드 이야기 -->
 	<article class="br_story">
 		<div class="br_storyLeft">
 			<div class="br_storyMainTitle">Brand Story</div>
@@ -31,7 +31,7 @@
 	<!-- 중간 배너 -->
 	<article class="br_storyImage"></article>
 
-	<!-- 씅스 비빔밥의 브랜드 소개  -->
+	<!-- 브랜드 소개  -->
 	<article class="br_intro">
 		<div class="br_introRight">
 			<div class="br_introMainTitle">Brand Story</div>

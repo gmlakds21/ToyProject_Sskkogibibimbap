@@ -1,1 +1,34 @@
 @charset "UTF-8";
+.st_store {
+	width: 1250px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+.st_store img {
+	margin-top: 100px;
+}
+
+
+/* 배달의 민족 */
+.st_baemin {
+	width: 1250px;
+	margin: 0 auto;	
+}
+.st_baeminIcon {
+	margin: 100px auto;
+	text-align: center;
+}
+.st_baeminIcon img {
+	width: 400px;
+	height: auto;
+}
+.st_baeminStore {
+	
+}
+.st_baeminItem {
+	width: 200px;
+	text-align: center;
+	border: 1px solid #40ACB7;
+	border-radius: 30px;
+}

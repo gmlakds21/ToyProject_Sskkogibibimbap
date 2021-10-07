@@ -1,46 +1,10 @@
 @charset "UTF-8";
-/* 메뉴 배너 */
-.mn_banner {
-	position: relative;
-	min-width: 1250px;
-	height: 400px;
-	overflow: hidden;
-}
-.mn_banner img {
-	position: absolute;
-	left: calc(50% - 950px);
-	top: calc(50% - 250px);
-}
-.mn_body {
-	width: 100%;
-	background: white;
-}
-
-
-/* 메뉴 안내 */
-.mn_menu {
-	margin: 150px auto;
+/* 래시피 */
+.mn_recipe {
 	width: 1250px;
-	text-align: center;
+	margin: 100px auto;
 }
-.mn_menuTitle img {
-	width: 30px;
-	height: 30px;
-	margin: 20px auto;
-}
-.mn_menuText {
-	width: 200px;
-	padding: 15px 0;
-	margin: 0px auto;
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
-	font-size: 30px;
-	font-weight: bold;
-}
-.mn_menuBanner {
-	margin: 100px 0px;
-}
-.mn_menuBannerText {
+.mn_recipeText {
 	float: right;
 	width: 500px;
 	height: 100%;
