@@ -7,6 +7,8 @@
 }
 .st_store img {
 	margin-top: 100px;
+	width: 1250px;
+	height: 100%;
 }
 
 
@@ -23,12 +25,26 @@
 	width: 400px;
 	height: auto;
 }
+.st_baeminStore {
+	display: flex;
+	/* justify-content: space-between; */
+	flex-wrap: wrap;
+	padding: 0px 7px;
+}
 .st_baeminItem {
 	width: 180px;
 	border: 1px solid #40ACB7;
+	background: #40ACB7;
 	border-radius: 10px;
+	color: white;
+	margin: 5px 13px;
 }
 .st_baeminItem img {
 	width: 30px;
 	height: 30px;
+}
+.st_baeminItem span {
+	position: relative;
+	left: 5px;
+	top: 2px;
 }

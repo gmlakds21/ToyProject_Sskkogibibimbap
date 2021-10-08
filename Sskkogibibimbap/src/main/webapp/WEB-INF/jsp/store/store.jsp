@@ -33,29 +33,48 @@
 		<div class="st_baeminStore">
 			<div class="st_baeminItem">
 				<img src="resources/img/store/baeminIcon.png">
-				강원 원주 직영점
+				<span>서울 강남 본점</span>
 			</div>
 			<div class="st_baeminItem">
 				<img src="resources/img/store/baeminIcon.png">
-				강원 춘천 1호점
+				<span>서울 춘천 1호점</span>
 			</div>
 			<div class="st_baeminItem">
 				<img src="resources/img/store/baeminIcon.png">
-				경기 김포 한강점
+				<span>경기 김포 한강점</span>
 			</div>
 			<div class="st_baeminItem">
 				<img src="resources/img/store/baeminIcon.png">
-				서울 동대문점
+				<span>서울 동대문점</span>
 			</div>
 			<div class="st_baeminItem">
 				<img src="resources/img/store/baeminIcon.png">
-				서울 강북 도봉점
+				<span>서울 강북 도봉점</span>
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				<span>서울 강북 수유점</span>
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				<span>서울 강북 노원점</span>
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				<span>경기 수원 성원점</span>
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				<span>서울 중랑 나연점</span>
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				<span>서울 마포 승희점</span>
+			</div>
+			<div class="st_baeminItem">
+				<img src="resources/img/store/baeminIcon.png">
+				<span>서울 서초 유은점</span>
 			</div>
 		</div>
 	</article>
-	
-	<article>
-		<img src="">
-	</article>
-	
 </section>
