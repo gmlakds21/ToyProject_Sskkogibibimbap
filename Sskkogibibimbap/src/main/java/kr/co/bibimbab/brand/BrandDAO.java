@@ -1,4 +1,4 @@
-package kr.co.sskkogibibimbap.dao;
+package kr.co.bibimbab.brand;
 
 import javax.annotation.Resource;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import egovframework.rte.psl.dataaccess.EgovAbstractMapper;
 
-@Repository("StoreDAO")
-public class StoreDAO extends EgovAbstractMapper{
+@Repository("BrandDAO")
+public class BrandDAO extends EgovAbstractMapper {
 
 	@Resource(name="sqlSession")
 	public void setSqlSessionFactory(SqlSessionFactory sqlSession) {

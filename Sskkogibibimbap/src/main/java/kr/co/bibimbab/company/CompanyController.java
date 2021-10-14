@@ -1,11 +1,9 @@
-package kr.co.sskkogibibimbap.web;
+package kr.co.bibimbab.company;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import kr.co.sskkogibibimbap.service.CompanyService;
 
 @Controller
 public class CompanyController {

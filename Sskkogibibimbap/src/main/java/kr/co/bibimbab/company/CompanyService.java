@@ -1,10 +1,8 @@
-package kr.co.sskkogibibimbap.service;
+package kr.co.bibimbab.company;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
-
-import kr.co.sskkogibibimbap.dao.CompanyDAO;
 
 @Service("CompanyService")
 public class CompanyService {

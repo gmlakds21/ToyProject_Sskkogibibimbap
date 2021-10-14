@@ -1,4 +1,4 @@
-package kr.co.sskkogibibimbap.vo;
+package kr.co.bibimbab.vo;
 
 public class SampleVO {
 

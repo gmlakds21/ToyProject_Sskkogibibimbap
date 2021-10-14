@@ -1,10 +1,8 @@
-package kr.co.sskkogibibimbap.service;
+package kr.co.bibimbab.menu;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
-
-import kr.co.sskkogibibimbap.dao.MenuDAO;
 
 @Service("MenuService")
 public class MenuService {
