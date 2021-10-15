@@ -4,7 +4,7 @@
 <header>
 	<div class="hd_front">
 		<div class="hd_main">
-			<div class="hd_log">
+			<div id="mainLog" class="hd_log">
 				<img src="resources/img/layout/headerLog.png"/>
 			</div>
 			<div class="hd_naviBar">
