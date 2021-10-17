@@ -4,7 +4,7 @@
 
 	<!-- 상단 배너 -->
 	<article class="bs_banner">
-		<img src="resources/img/menu/menuMain.jpg">
+		<img src="resources/img/menu/mainBanner.jpg">
 	</article>
 	
 	<!-- 메뉴 안내 -->
@@ -21,7 +21,7 @@
 	<article class="mn_recipe">
 		<img src="resources/img/menu/recipe.png">
 		<div class="mn_recipeText">
-			<b><span style="color:#AB7551">특별한 레시피</span>로 만든</b><br>맛있는 밥상, 꼬기비빔밥 전문점입니다.
+			<b><span style="color:#BA131A">특별한 레시피</span>로 만든</b><br>맛있는 밥상, 꼬기비빔밥 전문점입니다.
 		</div>
 	</article>
 	

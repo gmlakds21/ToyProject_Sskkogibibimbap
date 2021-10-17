@@ -12,6 +12,7 @@
 				<button type="button" id="naviMenu">메뉴안내</button>
 				<button type="button" id="naviCompany">창업안내</button>
 				<button type="button" id="naviStore">매장안내</button>
+				<button type="button" id="naviBoard">기타상담</button>
 			</div>
 		</div>
 	</div>

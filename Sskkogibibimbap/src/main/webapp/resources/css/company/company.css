@@ -1,9 +1,10 @@
 @charset "UTF-8";
 /* 창업 프로세스 */
 .cp_process {
-	width: 1260px;
-	margin: 100px auto 0px auto;
-	height: 200px;
+	width: 1440px;
+	margin: 100px auto;
+	padding: 0px 90px;
+	height: 400px;
 	text-align: center;
 }
 .cp_processTitle {
@@ -40,8 +41,9 @@
 
 /* 창업 메뉴얼 */
 .cp_manual {
-	width: 1250px;
-	margin: 100px auto 100px auto;
+	width: 1440px;
+	padding: 0px 120px;
+	margin: 200px auto;
 }
 .cp_manualBody {
 	width: 100%;
@@ -87,10 +89,10 @@
 /* 창업 소개 */
 .cp_Infobanner {
 	position: relative;
-	min-width: 1250px;
+	min-width: 1440px;
 	height: 630px;
 	overflow: hidden;
-	margin-bottom: -300px;
+	margin-bottom: -100px;
 }
 .cp_InfobannerDark {
 	position: absolute;
@@ -100,7 +102,7 @@
 	filter: brightness(0.30);
 }
 .cp_InfoItem {
-	width: 1250px;
+	width: 1200px;
 	height: 430px;
 	margin:100px auto;
 	position: relative;
@@ -109,7 +111,7 @@
 	font-weight: bold;
 }
 .cp_InfoItem1 {
-	width: 650px;
+	width: 630px;
 	height: 430px;
 	float: left;
 	padding: 165px 10px;
@@ -117,14 +119,14 @@
 	background: rgba(00, 125, 00, 0.2);
 }
 .cp_InfoItem2 {
-	width: 600px;
+	width: 570px;
 	height: 215px;
 	float: right;
 	padding: 57px 50px;
 	background: rgba(125, 00, 00, 0.2);
 }
 .cp_InfoItem3 {
-	width: 600px;
+	width: 570px;
 	height: 215px;
 	float: right;
 	padding: 57px 50px;

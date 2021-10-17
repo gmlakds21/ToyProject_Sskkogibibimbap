@@ -4,7 +4,7 @@
 
 	<!-- 상단 배너 -->
 	<article class="bs_banner">
-		<img src="resources/img/company/companyMain.jpg">
+		<img src="resources/img/company/mainBanner.jpg">
 	</article>
 	
 	<!-- 창업 안내 -->
@@ -32,35 +32,35 @@
 				<div class="cp_processStep">Step. 1</div>
 			</div>
 			<div class="cp_processArrow">
-				<img src="resources/img/company/companyArrow.png">
+				<img src="resources/img/company/processArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#AAAAAA">가맹계약</div>
 				<div class="cp_processStep">Step. 2</div>
 			</div>
 			<div class="cp_processArrow">
-				<img src="resources/img/company/companyArrow.png">
+				<img src="resources/img/company/processArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#999999">상권분석</div>
 				<div class="cp_processStep">Step. 3</div>
 			</div>
 			<div class="cp_processArrow">
-				<img src="resources/img/company/companyArrow.png">
+				<img src="resources/img/company/processArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#888888">조리교육</div>
 				<div class="cp_processStep">Step. 4</div>
 			</div>
 			<div class="cp_processArrow">
-				<img src="resources/img/company/companyArrow.png">
+				<img src="resources/img/company/processArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#777777">오픈준비</div>
 				<div class="cp_processStep">Step. 5</div>
 			</div>
 			<div class="cp_processArrow">
-				<img src="resources/img/company/companyArrow.png">
+				<img src="resources/img/company/processArrow.png">
 			</div>
 			<div class="cp_processItem">
 				<div class="cp_processCircle" style="background:#BA131A">Open</div>
@@ -129,7 +129,7 @@
 	
 	<!-- 창업 소개 -->
 	<article class="cp_Infobanner">
-		<img class="cp_InfobannerDark" src="resources/img/company/companyBanner.png">
+		<img class="cp_InfobannerDark" src="resources/img/company/infoBanner.png">
 		<div class="cp_InfoItem">
 			<div class="cp_InfoItem1">
 				<div class="cp_InfoTitle">창업문의</div>
@@ -138,12 +138,12 @@
 			<div class="cp_InfoItem2">
 				<div class="cp_InfoTitle">이메일 문의</div>
 				<div class="cp_InfoText">binaryone21@gmail.com</div>
-				<img class="cp_InfoIcon" src="resources/img/company/companyMail.png">
+				<img class="cp_InfoIcon" src="resources/img/company/infoMail.png">
 			</div>
 			<div class="cp_InfoItem3" id="goStore">
 				<div class="cp_InfoTitle">Store</div>
 				<div class="cp_InfoText">매장안내</div>
-				<img class="cp_InfoIcon" src="resources/img/company/companyPlace.png">
+				<img class="cp_InfoIcon" src="resources/img/company/infoPlace.png">
 			</div>
 		</div>
 	</article>

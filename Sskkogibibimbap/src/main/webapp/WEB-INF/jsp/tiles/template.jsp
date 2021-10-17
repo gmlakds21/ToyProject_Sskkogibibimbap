@@ -21,6 +21,7 @@
     <tiles:insertAttribute name="main"/>
     <tiles:insertAttribute name="footer"/>
 	<script src="resources/js/layout/layout.js"></script>
+	<script src="resources/js/main/main.js"></script>
 	<script src="resources/js/company/company.js"></script>
 </body>
 </html>

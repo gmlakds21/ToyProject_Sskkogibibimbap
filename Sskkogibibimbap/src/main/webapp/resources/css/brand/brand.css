@@ -2,8 +2,8 @@
 /* 브랜드 스토리 */
 .br_story {
 	margin: 0px auto;
-	padding: 100px 0;
-	width: 1250px;
+	width: 1440px;
+	padding: 100px 120px;
 	height: 700px;
 }
 .br_storyLeft {
@@ -17,8 +17,8 @@
 }
 .br_storyMainText {
 	width: 280px;
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
+	border-top: 3px solid #BA131A;
+	border-bottom: 3px solid #BA131A;
 	padding: 20px 0;
 	font-size: 40px;
 }
@@ -37,7 +37,7 @@
 	height: 500px;
 	min-width: 1250px;
 
-	background-image: url(/resources/img/brand/brandBack.jpg);
+	background-image: url(/resources/img/brand/sideBanner.jpg);
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,8 +48,8 @@
 /* 브랜드 소개 */
 .br_intro {
 	margin: 0px auto;
-	padding: 100px 0;
-	width: 1250px;
+	width: 1440px;
+	padding: 100px 120px;
 }
 .br_introRight {
 	float: right;
@@ -65,8 +65,8 @@
 }
 .br_introMainText {
 	width: 280px;
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
+	border-top: 3px solid #BA131A;
+	border-bottom: 3px solid #BA131A;
 	padding: 20px 0;
 	font-size: 40px;
 	text-align: right;
@@ -79,13 +79,13 @@
 }
 .br_introSubs {
 	float: left;
-	width: 400px;
+	width: 385px;
 	height: 600px;
 }
 .br_introSubHat {
 	margin: 0 auto;
 	width: 50px;
-	border-top: 1px solid red;
+	border-top: 2px solid #BA131A;
 }
 .br_introSubTitle {
 	margin: 30px auto;
@@ -93,8 +93,8 @@
 	font-size: 25px;	
 }
 .br_introSubImage {
-	height: 500px;
-	width: 100%;
+	height: auto;
+	width: 385px;
 	overflow: hidden;
 	border: 1px solid #EEEEEE;
 }

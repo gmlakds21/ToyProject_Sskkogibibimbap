@@ -9,7 +9,7 @@
 /* 배너 */
 .bs_banner {
 	position: relative;
-	min-width: 1250px;
+	min-width: 1440px;
 	height: 400px;
 	overflow: hidden;
 }
@@ -27,20 +27,20 @@
 /* 안내 */
 .bs_Info {
 	margin: 150px auto;
-	width: 1250px;
+	width: 1440px;
 	text-align: center;
 }
 .bs_InfoIcon img {
-	width: 40px;
-	height: 40px;
-	margin: 20px auto;
+	width: 30px;
+	height: 30px;
+	margin: 10px auto;
 }
 .bs_InfoText {
 	width: 250px;
-	padding: 10px 0;
+	padding: 20px 0;
 	margin: 0px auto;
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
+	border-top: 3px solid #BA131A;
+	border-bottom: 3px solid #BA131A;
 	font-size: 40px;
 	font-weight: bold;
 }
