@@ -1,1 +1,54 @@
 @charset "UTF-8";
+/* 기타 상담 */
+.bd_list {
+	margin: 0px auto;
+	width: 1440px;
+	padding: 100px 120px;
+	height: 700px;
+}
+.bd_list_search {
+	float: right;
+	margin: 0 -10px 5px 0;
+}
+.bd_list_searchTitle {
+	color: #BA131A;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.bd_list_searchText {
+	border: 2px solid #BA131A;
+	border-radius : 8px;
+	background: none;
+	padding: 2px 10px;
+	marign-right: -3px;
+	width: 500px;
+}
+.bd_list_searchBtn {
+	border: 2px solid #BA131A;
+	border-radius : 8px;
+	background: #BA131A;
+	color: white;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin: 0;
+}
+
+
+
+.bd_list_table {
+	clear: both;
+	border: 1px solid black;
+	text-align: center;
+}
+.bd_list_table {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.bd_list_table tr td:ntn-child(2) {
+	text-align: left;
+}
+
+.bd_list_btns {
+	float: right;
+	margin-top: 5px;
+}

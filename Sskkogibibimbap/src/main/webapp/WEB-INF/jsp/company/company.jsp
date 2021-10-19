@@ -8,11 +8,11 @@
 	</article>
 	
 	<!-- 창업 안내 -->
-	<article class="bs_Info">
-		<div class="bs_InfoIcon">
-			<img src="resources/img/base/InfoIcon.png">
+	<article class="bs_info">
+		<div class="bs_infoIcon">
+			<img src="resources/img/base/infoIcon.png">
 		</div>
-		<div class="bs_InfoText">
+		<div class="bs_infoText">
 			<span>창업안내</span>
 		</div>
 	</article>

@@ -25,17 +25,17 @@
 
 
 /* 안내 */
-.bs_Info {
+.bs_info {
 	margin: 150px auto;
 	width: 1440px;
 	text-align: center;
 }
-.bs_InfoIcon img {
+.bs_infoIcon img {
 	width: 30px;
 	height: 30px;
 	margin: 10px auto;
 }
-.bs_InfoText {
+.bs_infoText {
 	width: 250px;
 	padding: 20px 0;
 	margin: 0px auto;

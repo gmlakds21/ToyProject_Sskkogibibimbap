@@ -13,6 +13,6 @@ public class BoardController {
 	
 	@RequestMapping("/Board.do")
 	public String Board() {
-		return "board/board.tiles";
+		return "board/boardList.tiles";
 	}
 }
