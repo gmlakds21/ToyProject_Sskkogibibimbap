@@ -13,7 +13,7 @@ public class MainController {
 	private MainService mainService;
 	
 	@RequestMapping("/Main.do")
-	public String Main() {
+	public String main() {
 		return "main/main.tiles";
 	}
 }

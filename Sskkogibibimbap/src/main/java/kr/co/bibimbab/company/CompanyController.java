@@ -12,7 +12,7 @@ public class CompanyController {
 	private CompanyService companyService;
 	
 	@RequestMapping("/Company.do")
-	public String Company() {
+	public String company() {
 		return "company/company.tiles";
 	}
 }

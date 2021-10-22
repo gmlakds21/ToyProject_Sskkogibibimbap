@@ -12,7 +12,7 @@ public class BrandController {
 	private BrandService brandService;
 	
 	@RequestMapping("/Brand.do")
-	public String Brand() {
+	public String brand() {
 		return "brand/brand.tiles";
 	}
 }

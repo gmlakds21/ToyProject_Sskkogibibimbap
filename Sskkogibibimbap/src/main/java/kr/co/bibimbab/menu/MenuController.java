@@ -12,7 +12,7 @@ public class MenuController {
 	private MenuService menuService;
 	
 	@RequestMapping("/Menu.do")
-	public String Menu() {
+	public String menu() {
 		return "menu/menu.tiles";
 	}
 }

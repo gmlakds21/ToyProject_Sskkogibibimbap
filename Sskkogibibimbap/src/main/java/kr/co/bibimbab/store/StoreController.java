@@ -12,7 +12,7 @@ public class StoreController {
 	private StoreService storeService;
 	
 	@RequestMapping("/Store.do")
-	public String Store() {
+	public String store() {
 		return "store/store.tiles";
 	}
 }

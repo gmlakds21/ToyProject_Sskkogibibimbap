@@ -9,4 +9,16 @@ public class BoardService {
 
 	@Resource(name="BoardDAO")
 	private BoardDAO boardDAO;
+	
+	public String readBoard() {
+		return "";
+	}
+	
+	public String insertBoard() {
+		return "";
+	}
+	
+	public String updateBoard() {
+		return "";
+	}
 }
