@@ -21,12 +21,12 @@
 	<article class="bd_list">
 		<div class="bd_list_search">
 			<span class="bd_list_searchTitle">제목</span>
-			<span><input type="text" class="bd_list_searchText"> </span>
-			<span><button type="button" class="bd_list_searchBtn">검색</button></span>&nbsp;&nbsp;
+			<span><input type="text" class="bd_list_searchText bs_focusNone"> </span>
+			<span><button type="button" class="bd_list_btns bs_focusNone">검색</button></span>&nbsp;&nbsp;
 		</div>
 		
-		<div class="bd_list_table">
-			<table>
+		<div>
+			<table class="bd_list_table">
 				<colgroup>
 					<col style="width:120px">
 					<col style="width:720px">
@@ -56,23 +56,75 @@
 						<td>1.1</td>
 						<td>1</td>
 					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>asd</td>
+						<td>asd</td>
+						<td>1.1</td>
+						<td>1</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
-		<div class="bd_list_btns">
-			<span><button type="button" class="bd_list_searchBtn">상담하기</button></span>
+		<div class="bd_list_newBtn">
+			<span><button type="button" class="bd_list_btns bs_focusNone">상담하기</button></span>
 		</div>
 		
-		<div class="bd_navi">
-			<div>1</div>
-			<div>1</div>
-			<div>1</div>
-			<div>1</div>
-			<div>1</div>
+		<div class="bd_list_navi">
+			<div class="bd_list_naviAct">1</div>
+			<div>2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
 		</div>
 	</article>
-	
-	
-
-	<div style="text-align:center; font-weight:50px; font-weight:bold; margin:300px auto;">구현중</div>
 </section>

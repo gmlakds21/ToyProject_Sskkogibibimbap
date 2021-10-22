@@ -4,7 +4,9 @@
 	width: 100%;
 	background: white;
 }
-
+.bs_focusNone :focus {
+	outline: none;
+}
 
 /* 배너 */
 .bs_banner {
