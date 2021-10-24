@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 @Service("CompanyService")
 public class CompanyService {
 
-	@Resource(name="CompanyDAO")
-	private CompanyDAO companyDAO;
+	@Resource(name="CompanyDao")
+	private CompanyDao companyDao;
 }

@@ -1,24 +1,32 @@
 package kr.co.bibimbab.board;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
+import kr.co.bibimbab.vo.BoardVO;
+
 @Service("BoardService")
 public class BoardService {
 
-	@Resource(name="BoardDAO")
-	private BoardDAO boardDAO;
+	@Resource(name="BoardDao")
+	private BoardDao boardDao;
 	
-	public String readBoard() {
-		return "";
+	public List<BoardVO> readBoardList() {
+		return boardDao.readBoardList();
 	}
 	
-	public String insertBoard() {
-		return "";
+	public List<BoardVO> readBoardOne() {
+		return boardDao.readBoardOne();
 	}
 	
-	public String updateBoard() {
-		return "";
+	public List<BoardVO> insertBoard() {
+		return boardDao.insertBoard();
+	}
+	
+	public List<BoardVO> updateBoard() {
+		return boardDao.updateBoard();
 	}
 }

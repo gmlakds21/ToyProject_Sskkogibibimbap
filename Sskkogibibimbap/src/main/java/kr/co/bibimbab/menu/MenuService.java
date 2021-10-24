@@ -7,6 +7,6 @@ import org.springframework.stereotype.Service;
 @Service("MenuService")
 public class MenuService {
 
-	@Resource(name="MenuDAO")
-	private MenuDAO menuDAO;
+	@Resource(name="MenuDao")
+	private MenuDao menuDao;
 }

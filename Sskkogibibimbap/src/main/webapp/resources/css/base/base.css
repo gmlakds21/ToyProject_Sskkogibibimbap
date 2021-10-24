@@ -4,7 +4,7 @@
 	width: 100%;
 	background: white;
 }
-.bs_focusNone :focus {
+.bs_focusNone:focus {
 	outline: none;
 }
 

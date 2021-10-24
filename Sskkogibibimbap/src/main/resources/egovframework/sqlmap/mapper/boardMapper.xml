@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="boardMapper">
+	<select id="readBoardList" statementType="PREPARED" parameterType="String" resultType="BoardVO">
+		select * from BOARD
+	</select>
+
+	<select id="readBoardOne" statementType="PREPARED" parameterType="String" resultType="BoardVO">
+		select * from BOARD
+			WHERE SEQNO = 1
+	</select>
+
+	<insert id="insertBoard" statementType="PREPARED" parameterType="BoardVO">
+		insert into BOARD (
+				TITLE		
+			) values (
+				""
+			)
+	</insert>
+
+	<update id="updateBoard" statementType="PREPARED" parameterType="BoardVO">
+		update BOARD set(
+				CONTENTS = "123"
+			) WHERE SEQNO = 1
+	</update>
+</mapper>
