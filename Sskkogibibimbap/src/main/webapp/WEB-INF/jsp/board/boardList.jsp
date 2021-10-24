@@ -19,10 +19,10 @@
 
 	<!-- 기타 상담 -->
 	<article class="bd_list">
-		<div class="bd_list_search">
+		<div class="bd_base_rightTop">
 			<span class="bd_list_searchTitle">제목</span>
 			<span><input type="text" class="bd_list_searchText bs_focusNone"> </span>
-			<span><button type="button" class="bd_list_btns bs_focusNone">검색</button></span>&nbsp;&nbsp;
+			<span><button type="button" class="bd_base_btns bs_focusNone">검색</button></span>&nbsp;&nbsp;
 		</div>
 		
 		<div>
@@ -42,7 +42,7 @@
 						<th>작성일</th>
 						<th>조회수</th>
 					</tr>
-					<tr>
+					<tr id="boardView">
 						<td>1</td>
 						<td>asd</td>
 						<td>asd</td>
@@ -115,8 +115,8 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="bd_list_newBtn">
-			<span><button type="button" class="bd_list_btns bs_focusNone">상담하기</button></span>
+		<div class="bd_base_rightBot">
+			<span><button type="button" class="bd_base_btns bs_focusNone" id="boardNew">상담하기</button></span>
 		</div>
 		
 		<div class="bd_list_navi">

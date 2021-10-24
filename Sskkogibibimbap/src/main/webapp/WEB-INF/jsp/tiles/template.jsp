@@ -6,24 +6,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/css/layout/layout.css">
-    <link rel="stylesheet" href="resources/css/base/base.css">
-    <link rel="stylesheet" href="resources/css/main/main.css">
-    <link rel="stylesheet" href="resources/css/brand/brand.css">
-    <link rel="stylesheet" href="resources/css/menu/menu.css">
-    <link rel="stylesheet" href="resources/css/company/company.css">
-    <link rel="stylesheet" href="resources/css/store/store.css">
-    <link rel="stylesheet" href="resources/css/board/board.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="resources/css/layout.css">
+    <link rel="stylesheet" href="resources/css/base.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link rel="stylesheet" href="resources/css/brand.css">
+    <link rel="stylesheet" href="resources/css/menu.css">
+    <link rel="stylesheet" href="resources/css/company.css">
+    <link rel="stylesheet" href="resources/css/store.css">
+    <link rel="stylesheet" href="resources/css/board.css">
     <title>씅's 꼬기가득비빔밥</title>
 </head>
 <body>
     <tiles:insertAttribute name="header"/>
     <tiles:insertAttribute name="main"/>
     <tiles:insertAttribute name="footer"/>
-	<script src="resources/js/layout/layout.js"></script>
-	<script src="resources/js/main/main.js"></script>
-	<script src="resources/js/company/company.js"></script>
-	<script src="resources/js/board/board.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="resources/js/layout.js"></script>
+	<script src="resources/js/main.js"></script>
+	<script src="resources/js/company.js"></script>
+	<script src="resources/js/board.js"></script>
 </body>
 </html>

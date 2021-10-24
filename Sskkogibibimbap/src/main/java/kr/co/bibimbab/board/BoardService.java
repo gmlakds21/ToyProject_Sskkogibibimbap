@@ -18,15 +18,19 @@ public class BoardService {
 		return boardDao.readBoardList();
 	}
 	
-	public List<BoardVO> readBoardOne() {
+	public BoardVO readBoardOne() {
 		return boardDao.readBoardOne();
 	}
 	
-	public List<BoardVO> insertBoard() {
+	public int insertBoard() {
 		return boardDao.insertBoard();
 	}
 	
-	public List<BoardVO> updateBoard() {
+	public int updateBoard() {
 		return boardDao.updateBoard();
+	}
+
+	public int deleteBoard() {
+		return boardDao.deleteBoard();
 	}
 }

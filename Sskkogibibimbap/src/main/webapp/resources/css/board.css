@@ -1,14 +1,30 @@
 @charset "UTF-8";
-/* 기타 상담 */
+/* 기타 상담 공통 */
+.bd_base_rightTop {
+	float: right;
+	margin: 5px -10px;
+}
+.bd_base_rightBot {
+	float: right;
+	margin: 5px 0px;
+}
+.bd_base_btns {
+	border: 2px solid #BA131A;
+	border-radius : 8px;
+	background: #BA131A;
+	color: white;
+	font-weight: bold;
+	padding: 2px 10px;
+	margin: 0;
+}
+
+
+/* 기타 상담 List */
 .bd_list {
 	margin: 0px auto;
 	width: 1440px;
-	padding: 100px 120px;
+	padding: 0px 120px;
 	height: 700px;
-}
-.bd_list_search {
-	float: right;
-	margin: 0 -10px 5px 0;
 }
 .bd_list_searchTitle {
 	color: #BA131A;
@@ -22,15 +38,6 @@
 	padding: 2px 10px;
 	marign-right: -3px;
 	width: 500px;
-}
-.bd_list_btns {
-	border: 2px solid #BA131A;
-	border-radius : 8px;
-	background: #BA131A;
-	color: white;
-	font-weight: bold;
-	padding: 2px 10px;
-	margin: 0;
 }
 .bd_list_table {
 	clear: both;
@@ -49,10 +56,6 @@
 }
 .bd_list_table tr td:ntn-child(2) {
 	text-align: left;
-}
-.bd_list_newBtn {
-	float: right;
-	margin-top: 5px;
 }
 .bd_list_navi {
 	margin: 30px auto;
@@ -73,4 +76,32 @@
 	background: #BA131A;
 	color: white !important;
 	border: 1px solid #BA131A !important;
+}
+
+
+
+/* 기타 상담 View */
+.bd_view {
+	margin: 0px auto;
+	width: 1440px;
+	padding: 0px 120px;
+	height: 700px;
+}
+.bd_view_table th {
+	font-size: 25px;
+	text-align: center;
+}
+.bd_view_table td {
+	padding: 10px;
+}
+.bd_view_header {
+	height: 50px;
+	border-top: 2px solid #BA131A;
+	border-bottom: 2px solid #BA131A;
+}
+.bd_view_content {
+	height: 500px;
+	vertical-align: top;
+	border-bottom: 2px solid #BA131A;
+	overflow: hidden;
 }

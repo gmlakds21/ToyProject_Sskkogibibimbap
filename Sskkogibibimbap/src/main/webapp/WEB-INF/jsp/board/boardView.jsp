@@ -21,27 +21,42 @@
 		<div>
 			<table class="bd_view_table">
 				<colgroup>
-					<col style="width:300px">
-					<col style="width:900px">
+					<col style="width:100px">
+					<col style="width:700px">
+					
+					<col style="width:100px">
+					<col style="width:100px">
+					
+					<col style="width:100px">
+					<col style="width:100px">
+					
+					<col style="width:100px">
+					<col style="width:100px">
 				</colgroup>
 				<tbody>
-					<tr>
-						<th>글 번호</th>
-						<td>1</td>
-					</tr>
-					<tr>
-						<th>작성자<th>
-						<td>user</td>
-					<tr>
+					<tr class="bd_view_header">
 						<th>제목</th>
 						<td>123</td>
+						<th>작성자</th>
+						<td>user</td>
+						
+						<th>작성일</th>
+						<td>2021</td>
+						
+						<th>방문수</th>
+						<td>21</td>
 					</tr>
-					<tr>
-						<th>내용</th>
-						<td>ㅁㄴㅇㅁㄴㅇ</td>
+					<tr class="bd_view_content">
+						<td></td>
+						<td colspan="6" id="content">ㅁㄴㅇㅁㄴㅇ</td>
+						<td></td>
 					</tr>
 				</tbody>
 			</table>
+			<div class="bd_base_rightBot">
+				<span><button type="button" class="bd_base_btns bs_focusNone" id="boardUpdate">수정하기</button></span>
+				<span><button type="button" class="bd_base_btns bs_focusNone" id="boardDelete">삭제하기</button></span>
+			</div>
 		</div>
 	</article>
 </section>

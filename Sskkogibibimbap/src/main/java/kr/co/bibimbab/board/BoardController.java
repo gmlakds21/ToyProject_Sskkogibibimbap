@@ -42,4 +42,11 @@ public class BoardController {
 		mv.addObject("bdVO", boardService.updateBoard());
 		return mv;
 	}
+	
+	@RequestMapping("/BoardDelete.do")
+	public ModelAndView boardDelete(ModelAndView mv, BoardVO boardVO) {
+		mv.setViewName("board/boardDelete.tiles");
+		mv.addObject("bdVO", boardService.deleteBoard());
+		return mv;
+	}
 }

@@ -25,18 +25,23 @@ public class BoardDao extends EgovAbstractMapper {
 		return null;
 	}
 	
-	public List<BoardVO> readBoardOne() {
+	public BoardVO readBoardOne() {
 		// "boardMapper.readBoardOne"
 		return null;
 	}
 	
-	public List<BoardVO> insertBoard() {
+	public int insertBoard() {
 		// "boardMapper.insertBoard
-		return null;
+		return 1;
 	}
 	
-	public List<BoardVO> updateBoard() {
+	public int updateBoard() {
 		// "boardMapper.updateBoard
-		return null;
+		return 1;
+	}
+	
+	public int deleteBoard() {
+		// "boardMapper.deleteBoard"
+		return 1;
 	}
 }

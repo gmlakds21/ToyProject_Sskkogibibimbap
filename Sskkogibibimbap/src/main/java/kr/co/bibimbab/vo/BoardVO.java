@@ -7,19 +7,17 @@ public class BoardVO {
 	private String REG_ID;			// 작성자
 	private String REG_DATE;		// 작성일
 	private String VISIT;			// 방문수
-	private String RECOMMEND;		// 추천수 
 
 	////////////////////////////////////////////////////////////////////////////////////////
 	
 	public BoardVO() { }
-	public BoardVO(String sEQNO, String tITLE, String cONTENTS, String rEG_ID, String rEG_DATE, String vISIT, String rECOMMEND) {
+	public BoardVO(String sEQNO, String tITLE, String cONTENTS, String rEG_ID, String rEG_DATE, String vISIT) {
 		SEQNO = sEQNO;
 		TITLE = tITLE;
 		CONTENTS = cONTENTS;
 		REG_ID = rEG_ID;
 		REG_DATE = rEG_DATE;
 		VISIT = vISIT;
-		RECOMMEND = rECOMMEND;
 	}
 	
 	public String getSEQNO() {
@@ -58,12 +56,4 @@ public class BoardVO {
 	public void setVISIT(String vISIT) {
 		VISIT = vISIT;
 	}
-	public String getRECOMMEND() {
-		return RECOMMEND;
-	}
-	public void setRECOMMEND(String rECOMMEND) {
-		RECOMMEND = rECOMMEND;
-	}
-
-		
 }
