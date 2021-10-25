@@ -1,5 +1,5 @@
 <%@ page pageEncoding="UTF-8" %>
-<!-- 기타 상담 -->
+<!-- 기타 상담 상세 -->
 <section class="bs_body">
 
 	<!-- 상단 배너 -->
@@ -17,19 +17,20 @@
 		</div>
 	</article>
 	
+	
+	<!-- 상담 상세보기 -->
 	<article class="bd_view">
+		
+		<!-- 상담 상세보기 테이블 -->		
 		<div>
 			<table class="bd_view_table">
 				<colgroup>
 					<col style="width:100px">
 					<col style="width:700px">
-					
 					<col style="width:100px">
 					<col style="width:100px">
-					
 					<col style="width:100px">
 					<col style="width:100px">
-					
 					<col style="width:100px">
 					<col style="width:100px">
 				</colgroup>
@@ -39,10 +40,8 @@
 						<td>123</td>
 						<th>작성자</th>
 						<td>user</td>
-						
 						<th>작성일</th>
 						<td>2021</td>
-						
 						<th>방문수</th>
 						<td>21</td>
 					</tr>
@@ -53,10 +52,12 @@
 					</tr>
 				</tbody>
 			</table>
-			<div class="bd_base_rightBot">
-				<span><button type="button" class="bd_base_btns bs_focusNone" id="boardUpdate">수정하기</button></span>
-				<span><button type="button" class="bd_base_btns bs_focusNone" id="boardDelete">삭제하기</button></span>
-			</div>
+		</div>
+		
+		<!-- 상담 상세보기 버튼 -->
+		<div class="bd_base_rightBot">
+			<span><button type="button" class="bd_base_btns bs_focusNone" id="boardUpdate">수정하기</button></span>
+			<span><button type="button" class="bd_base_btns bs_focusNone" id="boardDelete">삭제하기</button></span>
 		</div>
 	</article>
 </section>

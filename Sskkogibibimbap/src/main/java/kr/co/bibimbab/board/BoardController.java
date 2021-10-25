@@ -14,6 +14,7 @@ public class BoardController {
 	@Resource(name="BoardService")
 	private BoardService boardService;
 	
+	/* 기타상담 목록	*/
 	@RequestMapping("/BoardList.do")
 	public ModelAndView boardList(ModelAndView mv, String cp, String target) {
 		mv.setViewName("board/boardList.tiles");
@@ -22,6 +23,7 @@ public class BoardController {
 		return mv;
 	}
 	
+	/* 기타상담 상세보기 */
 	@RequestMapping("/BoardView.do")
 	public ModelAndView boardView(ModelAndView mv, BoardVO boardVO) {
 		mv.setViewName("board/boardView.tiles");
@@ -29,24 +31,38 @@ public class BoardController {
 		return mv;
 	}
 	
+	/* 기타상담 상담하기 */
 	@RequestMapping("/BoardWrite.do")
-	public ModelAndView boardWrite(ModelAndView mv, BoardVO boardVO) {
-		mv.setViewName("board/boardWrite.tiles");
+	public String boardWrite() {
+		return "board/boardWrite.tiles";
+	}
+	
+	/* 기타상담 상담등록 */
+	@RequestMapping("/BoardWriteOK.do")
+	public ModelAndView boardWriteOK(ModelAndView mv, BoardVO boardVO) {
+		mv.setViewName("board/boardList.tiles");
 		mv.addObject("bdVO", boardService.insertBoard());
 		return mv;
 	}
 	
+	/* 기타상담 수정하기 */
 	@RequestMapping("/BoardUpdate.do")
-	public ModelAndView boardUpdate(ModelAndView mv, BoardVO boardVO) {
-		mv.setViewName("board/boardUpdate.tiles");
+	public String boardUpdate(String CP, String SEQNO) {
+		return "board/boardUpdate.tiles";
+	}
+	
+	/* 기타상담 수정등록 */
+	@RequestMapping("/BoardUpdateOK.do")
+	public ModelAndView boardUpdateOK(ModelAndView mv, BoardVO boardVO) {
+		mv.setViewName("board/boardList.tiles");
 		mv.addObject("bdVO", boardService.updateBoard());
 		return mv;
 	}
 	
+	/* 기타상담 삭제하기 */
 	@RequestMapping("/BoardDelete.do")
-	public ModelAndView boardDelete(ModelAndView mv, BoardVO boardVO) {
-		mv.setViewName("board/boardDelete.tiles");
-		mv.addObject("bdVO", boardService.deleteBoard());
-		return mv;
+	public String boardDelete(String CP, String SEQNO) {
+		boardService.deleteBoard();
+		return "board/boardDelete.tiles";
 	}
 }

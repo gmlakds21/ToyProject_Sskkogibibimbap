@@ -7,19 +7,35 @@ public class BoardVO {
 	private String REG_ID;			// 작성자
 	private String REG_DATE;		// 작성일
 	private String VISIT;			// 방문수
+	private String DEL_YN;			// 삭제여부
+	private String SECRET_NO;		// 등록 비밀번호
 
 	////////////////////////////////////////////////////////////////////////////////////////
 	
 	public BoardVO() { }
-	public BoardVO(String sEQNO, String tITLE, String cONTENTS, String rEG_ID, String rEG_DATE, String vISIT) {
+	public BoardVO(String sEQNO, String tITLE, String cONTENTS, String rEG_ID, String rEG_DATE, String vISIT, String dEL_YN, String sECRET_NO) {
 		SEQNO = sEQNO;
 		TITLE = tITLE;
 		CONTENTS = cONTENTS;
 		REG_ID = rEG_ID;
 		REG_DATE = rEG_DATE;
 		VISIT = vISIT;
+		DEL_YN = dEL_YN;
+		SECRET_NO = sECRET_NO;
 	}
 	
+	public String getSECRET_NO() {
+		return SECRET_NO;
+	}
+	public void setSECRET_NO(String sECRET_NO) {
+		SECRET_NO = sECRET_NO;
+	}
+	public String getDEL_YN() {
+		return DEL_YN;
+	}
+	public void setDEL_YN(String dEL_YN) {
+		DEL_YN = dEL_YN;
+	}
 	public String getSEQNO() {
 		return SEQNO;
 	}

@@ -1,5 +1,5 @@
 <%@ page pageEncoding="UTF-8" %>
-<!-- 기타 상담 -->
+<!-- 기타 상담 목록 -->
 <section class="bs_body">
 
 	<!-- 상단 배너 -->
@@ -17,14 +17,17 @@
 		</div>
 	</article>
 
-	<!-- 기타 상담 -->
+	<!-- 상담 리스트 -->
 	<article class="bd_list">
+	
+		<!-- 상담 리스트 검색 -->
 		<div class="bd_base_rightTop">
 			<span class="bd_list_searchTitle">제목</span>
 			<span><input type="text" class="bd_list_searchText bs_focusNone"> </span>
 			<span><button type="button" class="bd_base_btns bs_focusNone">검색</button></span>&nbsp;&nbsp;
 		</div>
 		
+		<!-- 상담 리스트 테이블 -->
 		<div>
 			<table class="bd_list_table">
 				<colgroup>
@@ -115,10 +118,13 @@
 				</tbody>
 			</table>
 		</div>
+		
+		<!-- 상담 리스트 버튼 -->
 		<div class="bd_base_rightBot">
-			<span><button type="button" class="bd_base_btns bs_focusNone" id="boardNew">상담하기</button></span>
+			<span><button type="button" class="bd_base_btns bs_focusNone" id="boardWrite">상담하기</button></span>
 		</div>
 		
+		<!-- 상담 리스트 네비게이션 -->
 		<div class="bd_list_navi">
 			<div class="bd_list_naviAct">1</div>
 			<div>2</div>
