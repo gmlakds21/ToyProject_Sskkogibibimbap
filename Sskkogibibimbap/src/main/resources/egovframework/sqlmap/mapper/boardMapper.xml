@@ -3,7 +3,7 @@
 <mapper namespace="boardMapper">
 
 	<select id="readBoardList" statementType="PREPARED" parameterType="String" resultType="BoardVO">
-		select * from BOARD
+		select * from T_BOARD
 			where DEL_YN = "N"
 	</select>
 

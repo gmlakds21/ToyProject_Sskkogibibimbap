@@ -14,8 +14,9 @@ public class BoardService {
 	@Resource(name="BoardDao")
 	private BoardDao boardDao;
 	
-	public List<BoardVO> readBoardList() {
-		return boardDao.readBoardList();
+	public List<BoardVO> readBoardList(String target) {
+		System.out.println("=== 서비스 들어감");
+		return boardDao.readBoardList(target);
 	}
 	
 	public BoardVO readBoardOne() {

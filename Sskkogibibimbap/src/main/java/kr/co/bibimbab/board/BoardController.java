@@ -18,7 +18,8 @@ public class BoardController {
 	@RequestMapping("/BoardList.do")
 	public ModelAndView boardList(ModelAndView mv, String cp, String target) {
 		mv.setViewName("board/boardList.tiles");
-		mv.addObject("bdList", boardService.readBoardList());
+		System.out.println("=== 컨트롤러 들어감");
+		mv.addObject("bdList", boardService.readBoardList(target));
 		/* mv.addObject("bdCount", boardService.countBoard()); */
 		return mv;
 	}

@@ -10,19 +10,15 @@ import kr.co.bibimbab.vo.BoardVO;
 @Repository("BoardDao")
 public class BoardDao extends EgovAbstractMapper {
 
-	/*
-	 * @Resource(name="sqlSession") public void
-	 * setSqlSessionFactory(SqlSessionFactory sqlSession) {
-	 * super.setSqlSessionFactory(sqlSession); }
-	 */
+/*
+https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte2:psl:dataaccess:mybatisguide
+ */
 	
 	
-	// @Autowired private SqlSession sqlSession;
-	 
-	
-	public List<BoardVO> readBoardList() {
-		// list("boardMapper.readBoardList"); }
-		return null;
+	@SuppressWarnings({ "unchecked", "deprecation" })
+	public List<BoardVO> readBoardList(String target) {
+		System.out.println("=== Dao 들어감");
+		return (List<BoardVO>) list("boardMapper.readBoardList", target);
 	}
 	
 	public BoardVO readBoardOne() {
