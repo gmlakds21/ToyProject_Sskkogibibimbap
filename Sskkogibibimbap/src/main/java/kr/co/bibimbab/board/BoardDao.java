@@ -2,6 +2,8 @@ package kr.co.bibimbab.board;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
 import org.springframework.stereotype.Repository;
 
 import egovframework.rte.psl.dataaccess.EgovAbstractMapper;
@@ -13,12 +15,19 @@ public class BoardDao extends EgovAbstractMapper {
 /*
 https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte2:psl:dataaccess:mybatisguide
  */
-	
-	
-	@SuppressWarnings({ "unchecked", "deprecation" })
+
+/*
+ * #3-2#
+ * 
+ * @Resource(name="BoardMapper") private BoardMapper boardMapper;
+ */ 
 	public List<BoardVO> readBoardList(String target) {
-		System.out.println("=== Dao 들어감");
-		return (List<BoardVO>) list("boardMapper.readBoardList", target);
+		/* #3-2# return boardMapper.readBoardList(target); */
+		return selectList("readBoardList", target);
+	} 
+	
+	public int countBoardList(String target) {
+		return selectOne("countBoardList", target);
 	}
 	
 	public BoardVO readBoardOne() {

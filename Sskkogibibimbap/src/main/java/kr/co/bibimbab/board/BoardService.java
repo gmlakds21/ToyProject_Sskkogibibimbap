@@ -19,6 +19,10 @@ public class BoardService {
 		return boardDao.readBoardList(target);
 	}
 	
+	public int countBoardList(String target) {
+		return boardDao.countBoardList(target);
+	}
+	
 	public BoardVO readBoardOne() {
 		return boardDao.readBoardOne();
 	}

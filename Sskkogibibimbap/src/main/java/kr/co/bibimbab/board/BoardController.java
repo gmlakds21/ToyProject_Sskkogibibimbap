@@ -20,7 +20,7 @@ public class BoardController {
 		mv.setViewName("board/boardList.tiles");
 		System.out.println("=== 컨트롤러 들어감");
 		mv.addObject("bdList", boardService.readBoardList(target));
-		/* mv.addObject("bdCount", boardService.countBoard()); */
+		// mv.addObject("bdCount", boardService.countBoardList(target));
 		return mv;
 	}
 	
