@@ -21,6 +21,7 @@ public class BoardController {
 		System.out.println("=== 컨트롤러 들어감");
 		mv.addObject("bdList", boardService.readBoardList(target));
 		// mv.addObject("bdCount", boardService.countBoardList(target));
+		System.out.println("히히"+boardService.readBoardList(target).size());
 		return mv;
 	}
 	

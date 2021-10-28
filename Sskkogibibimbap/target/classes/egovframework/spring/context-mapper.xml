@@ -6,11 +6,18 @@
 				http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">	
 
 	<!-- SqlSession 세팅 설정 정보 -->			
+<!-- 	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean"> -->	
 	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">	
 		<property name="dataSource" ref="dataSource"/>
 		<property name="configLocation" value="classpath:/egovframework/sqlmap/mapper-config.xml"/>
 		<property name="mapperLocations" value="classpath:/egovframework/sqlmap/mapper/*.xml"/>
 	</bean>	
+	
+	<!-- /// 삭제 예정 /// 추가됨 
+	<bean id="sqlSessionTempleate" class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg ref="sqlSession"/>
+	</bean>
+	-->
 	
 	<!-- #3-2# MapperConfigurer setup for MyBatis
 	<bean class="egovframework.rte.psl.dataaccess.mapper.MapperConfigurer">

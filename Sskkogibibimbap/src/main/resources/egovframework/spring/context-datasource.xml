@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"			
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	
-		xmlns:p="http://www.pringframework.org/schema/p"	
+		xmlns:p="http://www.springframework.org/schema/p"	
 		xsi:schemaLocation="http://www.springframework.org/schema/beans	
 			http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
 	<!-- JDBC 연결 -->
-	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close"
-		p:driverClassName="org.mariadb.jdbc.Driver"						
-		p:url="jdbc:mariadb://toy-mariadb.coqecfviusin.ap-northeast-2.rds.amazonaws.com:3306/bibimbab"						
-		p:username="bibimbab"						
-		p:password="bibimbab"/>						
+	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="org.mariadb.jdbc.Driver"/>						
+		<property name="url" value="jdbc:mariadb://toy-mariadb.coqecfviusin.ap-northeast-2.rds.amazonaws.com:3306/bibimbab"/>						
+		<property name="username" value="bibimbab"/>					
+		<property name="password" value="bibimbab"/>
+	</bean>
 
-	<!-- JDBC Template 등록
--->
+	<!-- /// 삭제 예정 /// JDBC Template 등록 
 	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
 		<property name="dataSource" ref="dataSource"/>
 	</bean>
+	-->
 	
+	<!-- /// 삭제 예정 /// transactionManager 등록 
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	-->
 </beans>
